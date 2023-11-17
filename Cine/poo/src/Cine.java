@@ -7,7 +7,6 @@ public class Cine {
 
     /*Constructor*/
     public Cine(int filas, int columnas, double precio, Pelicula pelicula) {
-
         asientos = new Asiento[filas][columnas];
         this.precio = precio;
         this.pelicula = pelicula;
